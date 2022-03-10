@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "V6uUPJ53Q6NbO4gMnrtc7mEbCbVPmXa5DNh2ZzQ/Eq7zKwQVbS+CUm6nhxli7UdgLsffLZA8xYtZvlzk9TO/ig==",
+  "success": true,
+  "projectFilePath": "E:\\Proyectos Xamarin\\Desafios\\Hijos\\Repromusica\\Repromusica\\Repromusica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\cardsview\\2.8.0\\cardsview.2.8.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\sharpnado.materialframe\\1.3.0\\sharpnado.materialframe.1.3.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\sharpnado.shadows\\1.2.0\\sharpnado.shadows.1.2.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\thomaslevesque.weakevent\\4.1.0\\thomaslevesque.weakevent.4.1.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Codigo 369\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
