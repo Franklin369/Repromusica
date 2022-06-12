@@ -15,6 +15,6 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xamarin.androidx.migration\1.0.8\buildTransitive\monoandroid90\Xamarin.AndroidX.Migration.props" Condition="Exists('$(NuGetPackageRoot)xamarin.androidx.migration\1.0.8\buildTransitive\monoandroid90\Xamarin.AndroidX.Migration.props')" />
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2401\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2401\buildTransitive\Xamarin.Forms.props')" />
   </ImportGroup>
 </Project>

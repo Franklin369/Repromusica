@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid12.0"
+          "monoandroid11.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid12.0": {
+          "monoandroid11.0": {
             "projectReferences": {
               "E:\\Proyectos Xamarin\\Desafios\\Hijos\\Repromusica\\Repromusica\\Repromusica.csproj": {
                 "projectPath": "E:\\Proyectos Xamarin\\Desafios\\Hijos\\Repromusica\\Repromusica\\Repromusica.csproj"
@@ -40,11 +40,19 @@
         }
       },
       "frameworks": {
-        "monoandroid12.0": {
+        "monoandroid11.0": {
           "dependencies": {
             "CardsView": {
               "target": "Package",
               "version": "[2.8.0, )"
+            },
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Plugin.MediaManager.Forms": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             },
             "Sharpnado.MaterialFrame": {
               "target": "Package",
@@ -54,13 +62,21 @@
               "target": "Package",
               "version": "[1.2.0, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2401, )"
+            },
+            "Xamarin.Plugin.SharedTransitions": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           }
         }
@@ -88,6 +104,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -110,11 +127,19 @@
               "target": "Package",
               "version": "[2.8.0, )"
             },
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Plugin.MediaManager.Forms": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             },
             "Sharpnado.MaterialFrame": {
               "target": "Package",
@@ -124,13 +149,21 @@
               "target": "Package",
               "version": "[1.2.0, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2401, )"
+            },
+            "Xamarin.Plugin.SharedTransitions": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           },
           "imports": [
@@ -143,7 +176,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

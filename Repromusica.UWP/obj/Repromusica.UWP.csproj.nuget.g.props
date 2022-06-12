@@ -5,18 +5,17 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Codigo 369\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Codigo 369\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.1.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Codigo 369\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
-    <SourceRoot Include="C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.ui.xaml\2.4.3\buildTransitive\Microsoft.UI.Xaml.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ui.xaml\2.4.3\buildTransitive\Microsoft.UI.Xaml.props')" />
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2401\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2401\buildTransitive\Xamarin.Forms.props')" />
     <Import Project="$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props" Condition="Exists('$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props')" />
     <Import Project="$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.props" Condition="Exists('$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.props')" />
     <Import Project="$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.Compiler.props" Condition="Exists('$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.Compiler.props')" />

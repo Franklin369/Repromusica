@@ -13,6 +13,50 @@
           "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
+      "Com.Airbnb.iOS.Lottie/2.5.13": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.13",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Plugin.MediaManager/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "1.1.1",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        }
+      },
       "Sharpnado.MaterialFrame/1.3.0": {
         "type": "package",
         "dependencies": {
@@ -60,6 +104,21 @@
           "lib/netstandard2.0/WeakEvent.dll": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -77,7 +136,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -200,15 +259,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Plugin.SharedTransitions/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.725"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "Repromusica/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CardsView": "2.8.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.1.0",
+          "Plugin.MediaManager.Forms": "1.1.1",
           "Sharpnado.MaterialFrame": "1.3.0",
           "Sharpnado.Shadows": "1.2.0",
+          "Xamarin.CommunityToolkit": "2.0.2",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Plugin.SharedTransitions": "2.4.0"
         },
         "compile": {
           "bin/placeholder/Repromusica.dll": {}
@@ -230,6 +305,50 @@
           "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
+      "Com.Airbnb.iOS.Lottie/2.5.13": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.13",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Plugin.MediaManager/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "1.1.1",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        }
+      },
       "Sharpnado.MaterialFrame/1.3.0": {
         "type": "package",
         "dependencies": {
@@ -277,6 +396,21 @@
           "lib/netstandard2.0/WeakEvent.dll": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -294,7 +428,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -417,15 +551,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Plugin.SharedTransitions/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.725"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "Repromusica/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CardsView": "2.8.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.1.0",
+          "Plugin.MediaManager.Forms": "1.1.1",
           "Sharpnado.MaterialFrame": "1.3.0",
           "Sharpnado.Shadows": "1.2.0",
+          "Xamarin.CommunityToolkit": "2.0.2",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Plugin.SharedTransitions": "2.4.0"
         },
         "compile": {
           "bin/placeholder/Repromusica.dll": {}
@@ -447,6 +597,50 @@
           "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
+      "Com.Airbnb.iOS.Lottie/2.5.13": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.13",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Plugin.MediaManager/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "1.1.1",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        }
+      },
       "Sharpnado.MaterialFrame/1.3.0": {
         "type": "package",
         "dependencies": {
@@ -494,6 +688,21 @@
           "lib/netstandard2.0/WeakEvent.dll": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -511,7 +720,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -634,15 +843,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Plugin.SharedTransitions/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.725"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "Repromusica/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CardsView": "2.8.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.1.0",
+          "Plugin.MediaManager.Forms": "1.1.1",
           "Sharpnado.MaterialFrame": "1.3.0",
           "Sharpnado.Shadows": "1.2.0",
+          "Xamarin.CommunityToolkit": "2.0.2",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Plugin.SharedTransitions": "2.4.0"
         },
         "compile": {
           "bin/placeholder/Repromusica.dll": {}
@@ -664,6 +889,50 @@
           "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
+      "Com.Airbnb.iOS.Lottie/2.5.13": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.13",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Plugin.MediaManager/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {}
+        }
+      },
+      "Plugin.MediaManager.Forms/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.MediaManager": "1.1.1",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.Forms.dll": {}
+        }
+      },
       "Sharpnado.MaterialFrame/1.3.0": {
         "type": "package",
         "dependencies": {
@@ -711,6 +980,21 @@
           "lib/netstandard2.0/WeakEvent.dll": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -728,7 +1012,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -851,15 +1135,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Plugin.SharedTransitions/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.725"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "Repromusica/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CardsView": "2.8.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.1.0",
+          "Plugin.MediaManager.Forms": "1.1.1",
           "Sharpnado.MaterialFrame": "1.3.0",
           "Sharpnado.Shadows": "1.2.0",
+          "Xamarin.CommunityToolkit": "2.0.2",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Plugin.SharedTransitions": "2.4.0"
         },
         "compile": {
           "bin/placeholder/Repromusica.dll": {}
@@ -896,6 +1196,153 @@
         "lib/uap/PanCardView.dll",
         "lib/win81/PanCardView.dll",
         "lib/wpa81/PanCardView.dll"
+      ]
+    },
+    "Com.Airbnb.iOS.Lottie/2.5.13": {
+      "sha512": "OnQraPaIQGPSFzWXWRGULTmyvTiEljtx2tLV4BJNm6f0E1OGqlLc6CnPUKbckoJQ4cceZc7RbqG4EtY4JG6raw==",
+      "type": "package",
+      "path": "com.airbnb.ios.lottie/2.5.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "com.airbnb.ios.lottie.2.5.13.nupkg.sha512",
+        "com.airbnb.ios.lottie.nuspec",
+        "icon.png",
+        "lib/xamarinios10/Lottie.iOS.dll",
+        "lib/xamarinios10/Lottie.iOS.pdb",
+        "lib/xamarinios10/Lottie.iOS.xml",
+        "lib/xamarinmac20/Lottie.iOS.dll",
+        "lib/xamarinmac20/Lottie.iOS.pdb",
+        "lib/xamarinmac20/Lottie.iOS.xml",
+        "lib/xamarintvos10/Lottie.iOS.dll",
+        "lib/xamarintvos10/Lottie.iOS.pdb",
+        "lib/xamarintvos10/Lottie.iOS.xml",
+        "readme.txt"
+      ]
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/4.1.0": {
+      "sha512": "me1BrWHvNPz3UQYXK0K5BZTbBIEYpbE5JbkUsO38tnvacLLMo8vBjmf11A6so2b3sCKtj4P3ixKu9EnZEjGs5g==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "icon.png",
+        "lib/monoandroid10.0/Lottie.Forms.dll",
+        "lib/monoandroid10.0/Lottie.Forms.pdb",
+        "lib/monoandroid10.0/Lottie.Forms.xml",
+        "lib/net472/Lottie.Forms.dll",
+        "lib/net472/Lottie.Forms.pdb",
+        "lib/net472/Lottie.Forms.xml",
+        "lib/netcoreapp3.1/Lottie.Forms.dll",
+        "lib/netcoreapp3.1/Lottie.Forms.pdb",
+        "lib/netcoreapp3.1/Lottie.Forms.xml",
+        "lib/netstandard2.0/Lottie.Forms.dll",
+        "lib/netstandard2.0/Lottie.Forms.pdb",
+        "lib/netstandard2.0/Lottie.Forms.xml",
+        "lib/tizen40/Lottie.Forms.dll",
+        "lib/tizen40/Lottie.Forms.pdb",
+        "lib/tizen40/Lottie.Forms.xml",
+        "lib/uap10.0.18362/Lottie.Forms.dll",
+        "lib/uap10.0.18362/Lottie.Forms.pdb",
+        "lib/uap10.0.18362/Lottie.Forms.pri",
+        "lib/uap10.0.18362/Lottie.Forms.xml",
+        "lib/xamarinios10/Lottie.Forms.dll",
+        "lib/xamarinios10/Lottie.Forms.pdb",
+        "lib/xamarinios10/Lottie.Forms.xml",
+        "lib/xamarinmac20/Lottie.Forms.dll",
+        "lib/xamarinmac20/Lottie.Forms.pdb",
+        "lib/xamarinmac20/Lottie.Forms.xml",
+        "readme.txt"
+      ]
+    },
+    "Plugin.MediaManager/1.1.1": {
+      "sha512": "5j5Nc4HzHErP7+Aho8EzVX1T4n7gW79zpOO5JV080Q8VgtF00Ws7exD/++v3NuGvQPu9ICzJodp6Y+M/GJLgFw==",
+      "type": "package",
+      "path": "plugin.mediamanager/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/monoandroid10.0/MediaManager.dll",
+        "lib/monoandroid10.0/MediaManager.pdb",
+        "lib/monoandroid10.0/MediaManager.xml",
+        "lib/net472/MediaManager.dll",
+        "lib/net472/MediaManager.pdb",
+        "lib/net472/MediaManager.xml",
+        "lib/netcoreapp3.1/MediaManager.dll",
+        "lib/netcoreapp3.1/MediaManager.pdb",
+        "lib/netcoreapp3.1/MediaManager.xml",
+        "lib/netstandard2.0/MediaManager.dll",
+        "lib/netstandard2.0/MediaManager.pdb",
+        "lib/netstandard2.0/MediaManager.xml",
+        "lib/tizen40/MediaManager.dll",
+        "lib/tizen40/MediaManager.pdb",
+        "lib/tizen40/MediaManager.xml",
+        "lib/uap10.0.18362/MediaManager.dll",
+        "lib/uap10.0.18362/MediaManager.pdb",
+        "lib/uap10.0.18362/MediaManager.pri",
+        "lib/uap10.0.18362/MediaManager.xml",
+        "lib/uap10.0.18362/MediaManager/MediaManager.xr.xml",
+        "lib/xamarinios10/MediaManager.dll",
+        "lib/xamarinios10/MediaManager.pdb",
+        "lib/xamarinios10/MediaManager.xml",
+        "lib/xamarinmac20/MediaManager.dll",
+        "lib/xamarinmac20/MediaManager.pdb",
+        "lib/xamarinmac20/MediaManager.xml",
+        "lib/xamarintvos10/MediaManager.dll",
+        "lib/xamarintvos10/MediaManager.pdb",
+        "lib/xamarintvos10/MediaManager.xml",
+        "plugin.mediamanager.1.1.1.nupkg.sha512",
+        "plugin.mediamanager.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Plugin.MediaManager.Forms/1.1.1": {
+      "sha512": "V8qmqgUGBzy9r50euhl8xWX76+Dr0e0oyiVvuQtFRfoqEuBeZnzVAQC8R+r2Y2s6kJFre+PevInO48ugka5QYQ==",
+      "type": "package",
+      "path": "plugin.mediamanager.forms/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/monoandroid10.0/MediaManager.Forms.dll",
+        "lib/monoandroid10.0/MediaManager.Forms.pdb",
+        "lib/monoandroid10.0/MediaManager.Forms.xml",
+        "lib/net472/MediaManager.Forms.dll",
+        "lib/net472/MediaManager.Forms.pdb",
+        "lib/net472/MediaManager.Forms.xml",
+        "lib/netcoreapp3.1/MediaManager.Forms.dll",
+        "lib/netcoreapp3.1/MediaManager.Forms.pdb",
+        "lib/netcoreapp3.1/MediaManager.Forms.xml",
+        "lib/netstandard2.0/MediaManager.Forms.dll",
+        "lib/netstandard2.0/MediaManager.Forms.pdb",
+        "lib/netstandard2.0/MediaManager.Forms.xml",
+        "lib/tizen40/MediaManager.Forms.dll",
+        "lib/tizen40/MediaManager.Forms.pdb",
+        "lib/tizen40/MediaManager.Forms.xml",
+        "lib/uap10.0.18362/MediaManager.Forms.dll",
+        "lib/uap10.0.18362/MediaManager.Forms.pdb",
+        "lib/uap10.0.18362/MediaManager.Forms.pri",
+        "lib/uap10.0.18362/MediaManager.Forms.xml",
+        "lib/xamarinios10/MediaManager.Forms.dll",
+        "lib/xamarinios10/MediaManager.Forms.pdb",
+        "lib/xamarinios10/MediaManager.Forms.xml",
+        "lib/xamarinmac20/MediaManager.Forms.dll",
+        "lib/xamarinmac20/MediaManager.Forms.pdb",
+        "lib/xamarinmac20/MediaManager.Forms.xml",
+        "lib/xamarintvos10/MediaManager.Forms.dll",
+        "lib/xamarintvos10/MediaManager.Forms.pdb",
+        "lib/xamarintvos10/MediaManager.Forms.xml",
+        "plugin.mediamanager.forms.1.1.1.nupkg.sha512",
+        "plugin.mediamanager.forms.nuspec",
+        "readme.txt"
       ]
     },
     "Sharpnado.MaterialFrame/1.3.0": {
@@ -1032,6 +1479,47 @@
         "thomaslevesque.weakevent.nuspec"
       ]
     },
+    "Xamarin.CommunityToolkit/2.0.2": {
+      "sha512": "6GgGfnf14oIpOwtXYveAEj590jQwqQ4AcTndizc75GuhX0CvgozyE/0Jb9NWmE0bbLZoxfcc3BeGlxljRrUvMw==",
+      "type": "package",
+      "path": "xamarin.communitytoolkit/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "analyzers/dotnet/xct/cs/Xamarin.CommunityToolkit.SourceGenerator.dll",
+        "icon.png",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.xml",
+        "lib/net471/Xamarin.CommunityToolkit.dll",
+        "lib/net471/Xamarin.CommunityToolkit.xml",
+        "lib/net472/Xamarin.CommunityToolkit.dll",
+        "lib/net472/Xamarin.CommunityToolkit.xml",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.dll",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.xml",
+        "lib/tizen40/Xamarin.CommunityToolkit.dll",
+        "lib/tizen40/Xamarin.CommunityToolkit.xml",
+        "lib/uap10.0.18362/Xamarin.CommunityToolkit.dll",
+        "lib/uap10.0.18362/Xamarin.CommunityToolkit.pri",
+        "lib/uap10.0.18362/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.xml",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.xml",
+        "xamarin.communitytoolkit.2.0.2.nupkg.sha512",
+        "xamarin.communitytoolkit.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -1074,10 +1562,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2196": {
-      "sha512": "zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
+    "Xamarin.Forms/5.0.0.2401": {
+      "sha512": "fk/V8QWjeyo8UXcsqsNRMd6o1H5PBfyXYm97nxvhMsJIdeqDgfRWyIsSurM8uLGLQGdQP23R+hHj7vcTSo2UjQ==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2196",
+      "path": "xamarin.forms/5.0.0.2401",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1286,8 +1774,27 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2196.nupkg.sha512",
+        "xamarin.forms.5.0.0.2401.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Plugin.SharedTransitions/2.4.0": {
+      "sha512": "upju4Pst1knGfdLQWWjT4ASuKQk2s7RhK8B4Yw6TILRerPZmhPmqJ/fV8NIR6HuLIsX8CxOg8fR+tNjOC6YwFA==",
+      "type": "package",
+      "path": "xamarin.plugin.sharedtransitions/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.SharedTransitions.dll",
+        "lib/monoandroid10.0/Plugin.SharedTransitions.xml",
+        "lib/monoandroid90/Plugin.SharedTransitions.dll",
+        "lib/monoandroid90/Plugin.SharedTransitions.xml",
+        "lib/netstandard2.0/Plugin.SharedTransitions.dll",
+        "lib/netstandard2.0/Plugin.SharedTransitions.xml",
+        "lib/xamarinios10/Plugin.SharedTransitions.dll",
+        "lib/xamarinios10/Plugin.SharedTransitions.xml",
+        "xamarin.plugin.sharedtransitions.2.4.0.nupkg.sha512",
+        "xamarin.plugin.sharedtransitions.nuspec"
       ]
     },
     "Repromusica/1.0.0": {
@@ -1299,11 +1806,15 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "CardsView >= 2.8.0",
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 4.1.0",
+      "Plugin.MediaManager.Forms >= 1.1.1",
       "Repromusica >= 1.0.0",
       "Sharpnado.MaterialFrame >= 1.3.0",
       "Sharpnado.Shadows >= 1.2.0",
+      "Xamarin.CommunityToolkit >= 2.0.2",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Forms >= 5.0.0.2401",
+      "Xamarin.Plugin.SharedTransitions >= 2.4.0"
     ]
   },
   "packageFolders": {
@@ -1352,6 +1863,14 @@
             "target": "Package",
             "version": "[2.8.0, )"
           },
+          "Com.Airbnb.Xamarin.Forms.Lottie": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
+          "Plugin.MediaManager.Forms": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Sharpnado.MaterialFrame": {
             "target": "Package",
             "version": "[1.3.0, )"
@@ -1360,13 +1879,21 @@
             "target": "Package",
             "version": "[1.2.0, )"
           },
+          "Xamarin.CommunityToolkit": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2196, )"
+            "version": "[5.0.0.2401, )"
+          },
+          "Xamarin.Plugin.SharedTransitions": {
+            "target": "Package",
+            "version": "[2.4.0, )"
           }
         }
       }

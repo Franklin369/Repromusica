@@ -1,8 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Repromusica.App">
+             x:Class="Repromusica.App"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             xmlns:triggers="clr-namespace:Repromusica.Triggers.Reproductor">
     <Application.Resources>
-
+        <Style x:Key="triggersLottie"
+               TargetType="lottie:AnimationView">
+            <Style.Triggers>
+                <MultiTrigger TargetType="lottie:AnimationView">
+                    <MultiTrigger.Conditions>
+                        <BindingCondition Binding="{Binding IsPlay}"
+                                          Value="true"/>
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.EnterActions>
+                        <triggers:Startlottie />
+                    </MultiTrigger.EnterActions>
+                    <MultiTrigger.ExitActions>
+                        <triggers:Stoplottie />
+                    </MultiTrigger.ExitActions>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="rotardisco"
+               TargetType="Image">
+            <Style.Triggers>
+                <MultiTrigger TargetType="Image">
+                    <MultiTrigger.Conditions>
+                        <BindingCondition Binding="{Binding IsPlay}"
+                                          Value="false" />
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.EnterActions>
+                        <triggers:Detenerdisco />
+                    </MultiTrigger.EnterActions>
+                    <MultiTrigger.ExitActions>
+                        <triggers:Rotardisco />
+                    </MultiTrigger.ExitActions>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+       
     </Application.Resources>
 </Application>

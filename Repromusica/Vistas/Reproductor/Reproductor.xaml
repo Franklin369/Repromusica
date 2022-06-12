@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Repromusica.Vistas.Reproductor.Reproductor"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:vistas="clr-namespace:Repromusica.Vistas.Reproductor"
+             xmlns:triggers="clr-namespace:Repromusica.Triggers.Reproductor"
+             xmlns:tool="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:shared="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
+             xmlns:desenfoque="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame">
+    <ContentPage.Behaviors>
+        <tool:EventToCommandBehavior EventName="Appearing"
+                                     Command="{Binding Rotarcommand}"
+                                     CommandParameter="{Binding Source={x:Reference myimage}}" />
+    </ContentPage.Behaviors>
+    <Grid VerticalOptions="FillAndExpand"
+          BackgroundColor="#16171D">
+        <lottie:AnimationView Animation="moradoc.json"
+                              AutoPlay="True"
+                              HeightRequest="50"
+                              WidthRequest="50"
+                              RepeatMode="Infinite"
+                              TranslationX="20"
+                              TranslationY="10"
+                              Style="{StaticResource triggersLottie}" />
+        <lottie:AnimationView Animation="blancoc.json"
+                              HeightRequest="50"
+                              WidthRequest="50"
+                              RepeatMode="Infinite"
+                              TranslationX="-40"
+                              TranslationY="-250"
+                              AutoPlay="True"
+                              Style="{StaticResource triggersLottie}" />
+        <desenfoque:MaterialFrame MaterialBlurStyle="Dark"
+                                  MaterialTheme="AcrylicBlur"/>
+        <lottie:AnimationView Animation="pica.json"
+                              HeightRequest="200"
+                              WidthRequest="200"
+                              RepeatMode="Infinite"
+                              AutoPlay="True"
+                              Style="{StaticResource triggersLottie}" />
+        <Grid RowDefinitions="auto,*,auto,auto,auto,auto"
+              VerticalOptions="FillAndExpand"
+              Margin="0,20,0,0">
+            <vistas:Encabezado />
+            <Grid Grid.Row="1">
+                <Frame Padding="0"
+                       Margin="70,0"
+                       HasShadow="False"
+                       BackgroundColor="Transparent"
+                       CornerRadius="25">
+                    <Grid>
+                        <Image Source="{Binding ParametrosRecibe.Icono}"
+                               Aspect="AspectFill"
+                               shared:Transition.Name="iconocancion"></Image>
+                        <BoxView>
+                            <BoxView.Background>
+                                <LinearGradientBrush>
+                                    <GradientStop Color="Transparent"
+                                                  Offset="0.2" />
+                                    <GradientStop Color="#F91386"
+                                                  Offset="0.9" />
+                                </LinearGradientBrush>
+                            </BoxView.Background>
+                        </BoxView>
+                        <lottie:AnimationView Animation="notas1.json"
+                                              HeightRequest="150"
+                                              WidthRequest="150"
+                                              RepeatMode="Infinite"
+                                              Style="{StaticResource triggersLottie}"
+                                              AutoPlay="True"
+                                              HorizontalOptions="Start"
+                                              VerticalOptions="End" />
+                        <Image Source="https://i.ibb.co/3YVc1FV/vinilo.png"
+                               HeightRequest="40"
+                               VerticalOptions="End"
+                               HorizontalOptions="Start"
+                               Margin="20"
+                               Style="{StaticResource rotardisco}"
+                               x:Name="myimage" />
+                    </Grid>
+                    <Frame.Triggers>
+                        <MultiTrigger TargetType="Frame">
+                            <MultiTrigger.Conditions>
+                                <BindingCondition Binding="{Binding Ispasar}"
+                                                  Value="true" />
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.EnterActions>
+                                <triggers:Pasarcancion />
+                            </MultiTrigger.EnterActions>
+                        </MultiTrigger>
+                    </Frame.Triggers>
+                </Frame>
+            </Grid>
+            <vistas:Cantante Grid.Row="2" />
+            <vistas:Progress Grid.Row="3" />
+            <vistas:Piepagina Grid.Row="4" />
+            <lottie:AnimationView Animation="suenas.json"
+                                  Grid.Row="5"
+                                  AutoPlay="True"
+                                  HeightRequest="50"
+                                  WidthRequest="50"
+                                  RepeatMode="Infinite"
+                                  Margin="0,0,0,10"
+                                  Style="{StaticResource triggersLottie}" />
+        </Grid>
+    </Grid>
+</ContentPage>

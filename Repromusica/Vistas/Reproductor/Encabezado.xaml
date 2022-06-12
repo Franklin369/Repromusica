@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Repromusica.Vistas.Reproductor.Encabezado"
+             xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions">
+    <StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center">
+            <Label Text="Primer texto"
+                   TextColor="White"
+                   FontAttributes="Bold" />
+            <Image Source="https://i.ibb.co/QJvYQMn/flecha-hacia-abajo-para-navegar.png"
+                   HeightRequest="18"
+                   VerticalOptions="Center"
+                  />
+        </StackLayout>
+        <Label Text="21 of 129"
+               TextColor="LightGray"
+               FontSize="12"
+               FontAttributes="Bold"
+               Margin="0,5"
+               HorizontalOptions="Center" />
+    </StackLayout>
+</ContentView>

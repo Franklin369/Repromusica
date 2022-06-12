@@ -1,12 +1,120 @@
 Repromusica.Droid.MainActivity, Repromusica.Android;crc64e7249dc2dc7647f7.MainActivity
 Repromusica.Droid.MainActivity;crc64e7249dc2dc7647f7.MainActivity
 repromusica.droid.MainActivity;crc64e7249dc2dc7647f7.MainActivity
+Com.Airbnb.Lottie.LottieAnimationView+ImageAssetDelegateImpl, Lottie.Android;com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl
+Com.Airbnb.Lottie.LottieAnimationView.ImageAssetDelegateImpl;com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl
+com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl;com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl
+Com.Airbnb.Lottie.LottieComposition+Factory+ActionCompositionLoaded, Lottie.Android;com.airbnb.lottie.LottieComposition$Factory_ActionCompositionLoaded
+Com.Airbnb.Lottie.LottieComposition.Factory.ActionCompositionLoaded;com.airbnb.lottie.LottieComposition$Factory_ActionCompositionLoaded
+com.airbnb.lottie.LottieComposition$Factory_ActionCompositionLoaded;com.airbnb.lottie.LottieComposition$Factory_ActionCompositionLoaded
+Com.Airbnb.Lottie.ICancellable, Lottie.Android;com.airbnb.lottie.Cancellable
+Com.Airbnb.Lottie.ICancellable;com.airbnb.lottie.Cancellable
+com.airbnb.lottie.Cancellable;com.airbnb.lottie.Cancellable
+Com.Airbnb.Lottie.IImageAssetDelegate, Lottie.Android;com.airbnb.lottie.ImageAssetDelegate
+Com.Airbnb.Lottie.IImageAssetDelegate;com.airbnb.lottie.ImageAssetDelegate
+com.airbnb.lottie.ImageAssetDelegate;com.airbnb.lottie.ImageAssetDelegate
+Com.Airbnb.Lottie.ILottieListener, Lottie.Android;com.airbnb.lottie.LottieListener
+Com.Airbnb.Lottie.ILottieListener;com.airbnb.lottie.LottieListener
+com.airbnb.lottie.LottieListener;com.airbnb.lottie.LottieListener
+Com.Airbnb.Lottie.ILottieListenerImplementor, Lottie.Android;mono.com.airbnb.lottie.LottieListenerImplementor
+Com.Airbnb.Lottie.ILottieListenerImplementor;mono.com.airbnb.lottie.LottieListenerImplementor
+mono.com.airbnb.lottie.LottieListenerImplementor;mono.com.airbnb.lottie.LottieListenerImplementor
+Com.Airbnb.Lottie.ILottieLogger, Lottie.Android;com.airbnb.lottie.LottieLogger
+Com.Airbnb.Lottie.ILottieLogger;com.airbnb.lottie.LottieLogger
+com.airbnb.lottie.LottieLogger;com.airbnb.lottie.LottieLogger
+Com.Airbnb.Lottie.ILottieOnCompositionLoadedListener, Lottie.Android;com.airbnb.lottie.LottieOnCompositionLoadedListener
+Com.Airbnb.Lottie.ILottieOnCompositionLoadedListener;com.airbnb.lottie.LottieOnCompositionLoadedListener
+com.airbnb.lottie.LottieOnCompositionLoadedListener;com.airbnb.lottie.LottieOnCompositionLoadedListener
+Com.Airbnb.Lottie.ILottieOnCompositionLoadedListenerImplementor, Lottie.Android;mono.com.airbnb.lottie.LottieOnCompositionLoadedListenerImplementor
+Com.Airbnb.Lottie.ILottieOnCompositionLoadedListenerImplementor;mono.com.airbnb.lottie.LottieOnCompositionLoadedListenerImplementor
+mono.com.airbnb.lottie.LottieOnCompositionLoadedListenerImplementor;mono.com.airbnb.lottie.LottieOnCompositionLoadedListenerImplementor
+Com.Airbnb.Lottie.ILottieProperty, Lottie.Android;com.airbnb.lottie.LottieProperty
+Com.Airbnb.Lottie.ILottieProperty;com.airbnb.lottie.LottieProperty
+com.airbnb.lottie.LottieProperty;com.airbnb.lottie.LottieProperty
+Com.Airbnb.Lottie.IOnCompositionLoadedListener, Lottie.Android;com.airbnb.lottie.OnCompositionLoadedListener
+Com.Airbnb.Lottie.IOnCompositionLoadedListener;com.airbnb.lottie.OnCompositionLoadedListener
+com.airbnb.lottie.OnCompositionLoadedListener;com.airbnb.lottie.OnCompositionLoadedListener
+Com.Airbnb.Lottie.IOnCompositionLoadedListenerImplementor, Lottie.Android;mono.com.airbnb.lottie.OnCompositionLoadedListenerImplementor
+Com.Airbnb.Lottie.IOnCompositionLoadedListenerImplementor;mono.com.airbnb.lottie.OnCompositionLoadedListenerImplementor
+mono.com.airbnb.lottie.OnCompositionLoadedListenerImplementor;mono.com.airbnb.lottie.OnCompositionLoadedListenerImplementor
+Com.Airbnb.Lottie.LottieDrawable+IRepeatMode, Lottie.Android;com.airbnb.lottie.LottieDrawable$RepeatMode
+Com.Airbnb.Lottie.LottieDrawable.IRepeatMode;com.airbnb.lottie.LottieDrawable$RepeatMode
+com.airbnb.lottie.LottieDrawable$RepeatMode;com.airbnb.lottie.LottieDrawable$RepeatMode
+Com.Airbnb.Lottie.PerformanceTracker+IFrameListener, Lottie.Android;com.airbnb.lottie.PerformanceTracker$FrameListener
+Com.Airbnb.Lottie.PerformanceTracker.IFrameListener;com.airbnb.lottie.PerformanceTracker$FrameListener
+com.airbnb.lottie.PerformanceTracker$FrameListener;com.airbnb.lottie.PerformanceTracker$FrameListener
+Com.Airbnb.Lottie.PerformanceTracker+IFrameListenerImplementor, Lottie.Android;mono.com.airbnb.lottie.PerformanceTracker_FrameListenerImplementor
+Com.Airbnb.Lottie.PerformanceTracker.IFrameListenerImplementor;mono.com.airbnb.lottie.PerformanceTracker_FrameListenerImplementor
+mono.com.airbnb.lottie.PerformanceTracker_FrameListenerImplementor;mono.com.airbnb.lottie.PerformanceTracker_FrameListenerImplementor
+Com.Airbnb.Lottie.Value.ISimpleLottieValueCallback, Lottie.Android;com.airbnb.lottie.value.SimpleLottieValueCallback
+Com.Airbnb.Lottie.Value.ISimpleLottieValueCallback;com.airbnb.lottie.value.SimpleLottieValueCallback
+com.airbnb.lottie.value.SimpleLottieValueCallback;com.airbnb.lottie.value.SimpleLottieValueCallback
+Com.Airbnb.Lottie.Network.ILottieFetchResult, Lottie.Android;com.airbnb.lottie.network.LottieFetchResult
+Com.Airbnb.Lottie.Network.ILottieFetchResult;com.airbnb.lottie.network.LottieFetchResult
+com.airbnb.lottie.network.LottieFetchResult;com.airbnb.lottie.network.LottieFetchResult
+Com.Airbnb.Lottie.Network.ILottieNetworkCacheProvider, Lottie.Android;com.airbnb.lottie.network.LottieNetworkCacheProvider
+Com.Airbnb.Lottie.Network.ILottieNetworkCacheProvider;com.airbnb.lottie.network.LottieNetworkCacheProvider
+com.airbnb.lottie.network.LottieNetworkCacheProvider;com.airbnb.lottie.network.LottieNetworkCacheProvider
+Com.Airbnb.Lottie.Network.ILottieNetworkFetcher, Lottie.Android;com.airbnb.lottie.network.LottieNetworkFetcher
+Com.Airbnb.Lottie.Network.ILottieNetworkFetcher;com.airbnb.lottie.network.LottieNetworkFetcher
+com.airbnb.lottie.network.LottieNetworkFetcher;com.airbnb.lottie.network.LottieNetworkFetcher
+Com.Airbnb.Lottie.Model.IKeyPathElement, Lottie.Android;com.airbnb.lottie.model.KeyPathElement
+Com.Airbnb.Lottie.Model.IKeyPathElement;com.airbnb.lottie.model.KeyPathElement
+com.airbnb.lottie.model.KeyPathElement;com.airbnb.lottie.model.KeyPathElement
+Com.Airbnb.Lottie.Model.Content.IContentModel, Lottie.Android;com.airbnb.lottie.model.content.ContentModel
+Com.Airbnb.Lottie.Model.Content.IContentModel;com.airbnb.lottie.model.content.ContentModel
+com.airbnb.lottie.model.content.ContentModel;com.airbnb.lottie.model.content.ContentModel
+Com.Airbnb.Lottie.Animation.Content.IContent, Lottie.Android;com.airbnb.lottie.animation.content.Content
+Com.Airbnb.Lottie.Animation.Content.IContent;com.airbnb.lottie.animation.content.Content
+com.airbnb.lottie.animation.content.Content;com.airbnb.lottie.animation.content.Content
+Com.Airbnb.Lottie.Animation.Content.IDrawingContent, Lottie.Android;com.airbnb.lottie.animation.content.DrawingContent
+Com.Airbnb.Lottie.Animation.Content.IDrawingContent;com.airbnb.lottie.animation.content.DrawingContent
+com.airbnb.lottie.animation.content.DrawingContent;com.airbnb.lottie.animation.content.DrawingContent
+Com.Airbnb.Lottie.Animation.Content.IKeyPathElementContent, Lottie.Android;com.airbnb.lottie.animation.content.KeyPathElementContent
+Com.Airbnb.Lottie.Animation.Content.IKeyPathElementContent;com.airbnb.lottie.animation.content.KeyPathElementContent
+com.airbnb.lottie.animation.content.KeyPathElementContent;com.airbnb.lottie.animation.content.KeyPathElementContent
+Com.Airbnb.Lottie.Animation.Content.IModifierContent, Lottie.Android;com.airbnb.lottie.animation.content.ModifierContent
+Com.Airbnb.Lottie.Animation.Content.IModifierContent;com.airbnb.lottie.animation.content.ModifierContent
+com.airbnb.lottie.animation.content.ModifierContent;com.airbnb.lottie.animation.content.ModifierContent
+Lottie.Forms.Platforms.Android.AnimationViewRenderer, Lottie.Forms;crc644484e57e99aaaad6.AnimationViewRenderer
+Lottie.Forms.Platforms.Android.AnimationViewRenderer;crc644484e57e99aaaad6.AnimationViewRenderer
+lottie.forms.platforms.android.AnimationViewRenderer;crc644484e57e99aaaad6.AnimationViewRenderer
+Lottie.Forms.Platforms.Android.AnimatorListener, Lottie.Forms;crc644484e57e99aaaad6.AnimatorListener
+Lottie.Forms.Platforms.Android.AnimatorListener;crc644484e57e99aaaad6.AnimatorListener
+lottie.forms.platforms.android.AnimatorListener;crc644484e57e99aaaad6.AnimatorListener
+Lottie.Forms.Platforms.Android.AnimatorUpdateListener, Lottie.Forms;crc644484e57e99aaaad6.AnimatorUpdateListener
+Lottie.Forms.Platforms.Android.AnimatorUpdateListener;crc644484e57e99aaaad6.AnimatorUpdateListener
+lottie.forms.platforms.android.AnimatorUpdateListener;crc644484e57e99aaaad6.AnimatorUpdateListener
+Lottie.Forms.Platforms.Android.ClickListener, Lottie.Forms;crc644484e57e99aaaad6.ClickListener
+Lottie.Forms.Platforms.Android.ClickListener;crc644484e57e99aaaad6.ClickListener
+lottie.forms.platforms.android.ClickListener;crc644484e57e99aaaad6.ClickListener
+Lottie.Forms.Platforms.Android.LottieAndroidComposition, Lottie.Forms;crc644484e57e99aaaad6.LottieAndroidComposition
+Lottie.Forms.Platforms.Android.LottieAndroidComposition;crc644484e57e99aaaad6.LottieAndroidComposition
+lottie.forms.platforms.android.LottieAndroidComposition;crc644484e57e99aaaad6.LottieAndroidComposition
+Lottie.Forms.Platforms.Android.LottieFailureListener, Lottie.Forms;crc644484e57e99aaaad6.LottieFailureListener
+Lottie.Forms.Platforms.Android.LottieFailureListener;crc644484e57e99aaaad6.LottieFailureListener
+lottie.forms.platforms.android.LottieFailureListener;crc644484e57e99aaaad6.LottieFailureListener
+Lottie.Forms.Platforms.Android.LottieOnCompositionLoadedListener, Lottie.Forms;crc644484e57e99aaaad6.LottieOnCompositionLoadedListener
+Lottie.Forms.Platforms.Android.LottieOnCompositionLoadedListener;crc644484e57e99aaaad6.LottieOnCompositionLoadedListener
+lottie.forms.platforms.android.LottieOnCompositionLoadedListener;crc644484e57e99aaaad6.LottieOnCompositionLoadedListener
 PanCardView.Droid.CardsViewRenderer, PanCardView.Droid;crc64208e3b354a871c0e.CardsViewRenderer
 PanCardView.Droid.CardsViewRenderer;crc64208e3b354a871c0e.CardsViewRenderer
 pancardview.droid.CardsViewRenderer;crc64208e3b354a871c0e.CardsViewRenderer
 PanCardView.Droid.CardsGestureListener, PanCardView.Droid;crc64208e3b354a871c0e.CardsGestureListener
 PanCardView.Droid.CardsGestureListener;crc64208e3b354a871c0e.CardsGestureListener
 pancardview.droid.CardsGestureListener;crc64208e3b354a871c0e.CardsGestureListener
+Plugin.SharedTransitions.Platforms.Android.NavigationTransitionListener, Plugin.SharedTransitions;crc6479820c45fd9c6153.NavigationTransitionListener
+Plugin.SharedTransitions.Platforms.Android.NavigationTransitionListener;crc6479820c45fd9c6153.NavigationTransitionListener
+plugin.sharedtransitions.platforms.android.NavigationTransitionListener;crc6479820c45fd9c6153.NavigationTransitionListener
+Plugin.SharedTransitions.Platforms.Android.SharedTransitionNavigationPageRenderer, Plugin.SharedTransitions;crc6479820c45fd9c6153.SharedTransitionNavigationPageRenderer
+Plugin.SharedTransitions.Platforms.Android.SharedTransitionNavigationPageRenderer;crc6479820c45fd9c6153.SharedTransitionNavigationPageRenderer
+plugin.sharedtransitions.platforms.android.SharedTransitionNavigationPageRenderer;crc6479820c45fd9c6153.SharedTransitionNavigationPageRenderer
+Plugin.SharedTransitions.Platforms.Android.SharedTransitionPageRenderer, Plugin.SharedTransitions;crc6479820c45fd9c6153.SharedTransitionPageRenderer
+Plugin.SharedTransitions.Platforms.Android.SharedTransitionPageRenderer;crc6479820c45fd9c6153.SharedTransitionPageRenderer
+plugin.sharedtransitions.platforms.android.SharedTransitionPageRenderer;crc6479820c45fd9c6153.SharedTransitionPageRenderer
+Plugin.SharedTransitions.Platforms.Android.SharedTransitionShellItemRenderer, Plugin.SharedTransitions;crc6479820c45fd9c6153.SharedTransitionShellItemRenderer
+Plugin.SharedTransitions.Platforms.Android.SharedTransitionShellItemRenderer;crc6479820c45fd9c6153.SharedTransitionShellItemRenderer
+plugin.sharedtransitions.platforms.android.SharedTransitionShellItemRenderer;crc6479820c45fd9c6153.SharedTransitionShellItemRenderer
 Sharpnado.MaterialFrame.Droid.AndroidMaterialFrameRenderer, Sharpnado.MaterialFrame.Android;crc64986003de7f435920.AndroidMaterialFrameRenderer
 Sharpnado.MaterialFrame.Droid.AndroidMaterialFrameRenderer;crc64986003de7f435920.AndroidMaterialFrameRenderer
 sharpnado.materialframe.droid.AndroidMaterialFrameRenderer;crc64986003de7f435920.AndroidMaterialFrameRenderer

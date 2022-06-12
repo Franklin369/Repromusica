@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Repromusica.Vistas.Reproductor.Piepagina">
+    <StackLayout 
+                 Orientation="Horizontal"
+                 Margin="20,20,20,10">
+        <Label Text="{Binding ParametrosRecibe.Posicion,StringFormat='{0:mm\\:ss}'}"
+               TextColor="White"
+               FontAttributes="Bold"
+               FontSize="13"
+               VerticalOptions="Center" />
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <Image Source="https://i.ibb.co/N3yDNgW/anterior.png"
+                   HeightRequest="23">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Previuscommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="{Binding PlayIcon}"
+                   HeightRequest="60"
+                   Margin="17,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Playcommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="https://i.ibb.co/s37VLxG/anterior-1.png"
+                   HeightRequest="23">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Nextcommand}" />
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+        <Label Text="{Binding ParametrosRecibe.Duracion,StringFormat='{0:mm\\:ss}'}"
+               TextColor="Gray"
+               VerticalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="13" />
+    </StackLayout>
+</ContentView>

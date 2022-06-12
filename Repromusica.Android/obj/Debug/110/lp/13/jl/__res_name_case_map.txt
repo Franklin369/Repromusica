@@ -1,0 +1,13 @@
+anim/enter_bottom.xml;anim/enter_bottom.xml
+anim/enter_left.xml;anim/enter_left.xml
+anim/enter_right.xml;anim/enter_right.xml
+anim/enter_top.xml;anim/enter_top.xml
+anim/exit_bottom.xml;anim/exit_bottom.xml
+anim/exit_left.xml;anim/exit_left.xml
+anim/exit_right.xml;anim/exit_right.xml
+anim/exit_top.xml;anim/exit_top.xml
+anim/fade_in.xml;anim/fade_in.xml
+anim/fade_out.xml;anim/fade_out.xml
+anim/flip_in.xml;anim/flip_in.xml
+anim/flip_out.xml;anim/flip_out.xml
+transition/navigation_transition.xml;transition/navigation_transition.xml

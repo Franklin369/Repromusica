@@ -14,34 +14,34 @@ namespace Repromusica.Datos
             {
                 new Mmusica
                 {
-                    Nombre="Pepas",
-                    Autor="Farruco",
-                    Icono= "https://i.ibb.co/YQ7H56Q/maxresdefault.jpg",
-                    Url= "https://firebasestorage.googleapis.com/v0/b/musicaapp-7c86f.appspot.com/o/pepas.mp3?alt=media&token=1ec33539-2930-4ef4-88d1-ee3d679e9232"
+                    Nombre="Provenza",
+                    Autor="Karol G",
+                    Icono= "prov.jpg",
+                    Url= "https://firebasestorage.googleapis.com/v0/b/registrosruc.appspot.com/o/KAROL%20G%20-%20PROVENZA%20(Official%20Video).mp3?alt=media&token=90705445-dff2-414b-90b9-d3c49aa8f581"
                 },
                  new Mmusica
                  {
-                     Nombre = "Tengo reservado el hotel ",
-                     Autor = "Rauw Alejandro",
-                     Icono = "https://i.ibb.co/2dZvz5t/image.jpg"
+                     Nombre = "Cold Heart",
+                     Autor = "Elton John - Dua L",
+                     Icono = "elton.png"
                 ,
-                     Url = "https://firebasestorage.googleapis.com/v0/b/dragonball-91cc7.appspot.com/o/hotel.mp3?alt=media&token=23f75ebd-9a0b-43da-85a7-cebd4d5b3b4e"
+                     Url = "https://firebasestorage.googleapis.com/v0/b/registrosruc.appspot.com/o/Elton%20John%2C%20Dua%20Lipa%20-%20Cold%20Heart%20(PNAU%20Remix)%20(Official%20Video).mp3?alt=media&token=d488cd06-1f65-450a-ab77-cdc1f5d93a4b"
                  },
                   new Mmusica
                   {
-                      Nombre = "Lo Siento BB",
-                      Autor = "Julieta Venegas, Bad Bunny",
-                      Icono = "https://i.ibb.co/2W563k7/julieta-venegas.jpg"
+                      Nombre = "Heart Of Glass",
+                      Autor = "Miley Cyrus",
+                      Icono = "mm.jpeg"
                      ,
-                      Url = "https://firebasestorage.googleapis.com/v0/b/dragonball-91cc7.appspot.com/o/Losiento.mp3?alt=media&token=8af3ab4b-e695-4ef9-a749-0020207abed7"
+                      Url = "https://firebasestorage.googleapis.com/v0/b/registrosruc.appspot.com/o/Miley%20Cyrus%20-%20Heart%20Of%20Glass%20(Live%20from%20the%20iHeart%20Festival).mp3?alt=media&token=06896f7c-a662-4b93-94cd-b050a2fb2db8"
                   },
                   new Mmusica
                   {
-                      Nombre = "Programando",
-                      Autor = "Lofi",
-                      Icono = "https://i.ibb.co/MR0q2n5/Chilled-Cow-snap.jpg"
+                      Nombre = "Mi amor",
+                      Autor = "Dread mar",
+                      Icono = "dd.jpg"
                      ,
-                      Url = "https://firebasestorage.googleapis.com/v0/b/musicaapp-7c86f.appspot.com/o/queda.mp3?alt=media&token=69ae6fb6-ecb2-4574-a867-ff96b05465f5"
+                      Url = "https://firebasestorage.googleapis.com/v0/b/registrosruc.appspot.com/o/Dread%20Mar%20I%20-%20Mi%20Amor%20(En%20Vivo).mp3?alt=media&token=d133bfba-d3fa-4788-9155-7febb821a29b"
                   }
 
             };

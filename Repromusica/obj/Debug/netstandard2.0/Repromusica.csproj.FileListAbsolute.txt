@@ -5,6 +5,11 @@ E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandar
 E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Repromusica.GeneratedMSBuildEditorConfig.editorconfig
 E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Vistas\Listamusica.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Vistas\Reproductor\Cantante.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Vistas\Reproductor\Encabezado.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Vistas\Reproductor\Piepagina.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Vistas\Reproductor\Progress.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Vistas\Reproductor\Reproductor.xaml.g.cs
 E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Repromusica.AssemblyInfoInputs.cache
 E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Repromusica.AssemblyInfo.cs
 E:\Proyectos Xamarin\Desafios\Hijos\Repromusica\Repromusica\obj\Debug\netstandard2.0\Repromusica.csproj.CoreCompileInputs.cache

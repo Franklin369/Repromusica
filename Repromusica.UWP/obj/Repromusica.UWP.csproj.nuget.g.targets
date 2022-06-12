@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2401\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2401\buildTransitive\Xamarin.Forms.targets')" />
     <Import Project="$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets" Condition="Exists('$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets')" />
     <Import Project="$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.targets" Condition="Exists('$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.SharedLibrary.targets')" />
     <Import Project="$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.Compiler.targets" Condition="Exists('$(NuGetPackageRoot)runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\runtime.win10-x86.Microsoft.Net.Native.Compiler.targets')" />

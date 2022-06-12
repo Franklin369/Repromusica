@@ -17,8 +17,12 @@ namespace Repromusica.Vistas {
     public partial class Listamusica : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::PanCardView.CoverFlowView listamusica;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Listamusica));
+            listamusica = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::PanCardView.CoverFlowView>(this, "listamusica");
         }
     }
 }

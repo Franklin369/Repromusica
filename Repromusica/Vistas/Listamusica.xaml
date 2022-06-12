@@ -6,7 +6,8 @@
              xmlns:cardview="clr-namespace:PanCardView;assembly=PanCardView"
              xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
              xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
-             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows">
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             xmlns:shared="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions">
     <Grid RowDefinitions="auto,*,180,auto"
           BackgroundColor="Black">
         <StackLayout Orientation="Horizontal"
@@ -24,24 +25,28 @@
         </StackLayout>
         <cardview:CoverFlowView IsCyclical="True"
                                 ItemsSource="{Binding Listamusica}"
-                                Grid.Row="1">
+                                Grid.Row="1"
+                                x:Name="listamusica">
             <x:Arguments>
-                <proc:CoverFlowProcessor ScaleFactor="0.75"/>
+                <proc:CoverFlowProcessor ScaleFactor="0.75" />
             </x:Arguments>
             <cardview:CoverFlowView.ItemTemplate>
                 <DataTemplate>
                     <Grid Margin="40">
                         <Frame Padding="0"
                                CornerRadius="18"
-                               HasShadow="False">
+                               HasShadow="False"
+                              BackgroundColor="Transparent">
                             <Image Aspect="AspectFill"
-                                   Source="{Binding Icono}" />
+                                   Source="{Binding Icono}"
+                                   shared:Transition.Group="{Binding Id}"
+                                   shared:Transition.Name="iconocancion"/>
                         </Frame>
                         <Grid VerticalOptions="End"
                               Margin="10">
-                            <sharpnado:MaterialFrame CornerRadius="18"
+                            <!--<sharpnado:MaterialFrame CornerRadius="18"
                                                      MaterialBlurStyle="Light"
-                                                     MaterialTheme="AcrylicBlur" />
+                                                     MaterialTheme="AcrylicBlur" />-->
                             <StackLayout Margin="15,0"
                                          VerticalOptions="Center">
                                 <Label Text="{Binding Nombre}"
@@ -57,8 +62,14 @@
                             <Image Source="https://i.ibb.co/NYkGXvz/boton-de-reproduccion.png"
                                    Margin="20"
                                    HeightRequest="50"
-                                   HorizontalOptions="EndAndExpand" />
+                                   HorizontalOptions="EndAndExpand"
+                                   />
+
                         </Grid>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Path=BindingContext.Irreproductorcommand,Source={x:Reference listamusica}}"
+                                                  CommandParameter="{Binding .}" />
+                        </Grid.GestureRecognizers>
                     </Grid>
                 </DataTemplate>
             </cardview:CoverFlowView.ItemTemplate>
@@ -70,7 +81,7 @@
                    FontSize="25"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
-                   Margin="0,0,0,15"/>
+                   Margin="0,0,0,15" />
             <cardview:CoverFlowView ItemsSource="{Binding Listamusica}"
                                     PositionShiftValue="220">
                 <cardview:CoverFlowView.ItemTemplate>
@@ -110,7 +121,7 @@
                      Margin="30">
             <sombras:Shadows CornerRadius="10"
                              Shades="{sombras:SingleShade Offset='0,0' ,Opacity=0.6,Color=White}">
-                 <Image Source="t1.png"/>
+                <Image Source="t1.png" />
             </sombras:Shadows>
             <sombras:Shadows CornerRadius="10"
                              Shades="{sombras:SingleShade Offset='0,0' ,Opacity=0.6,Color=White}"
@@ -122,7 +133,5 @@
                 <Image Source="t3.png" />
             </sombras:Shadows>
         </StackLayout>
-        
-       
     </Grid>
 </ContentPage>

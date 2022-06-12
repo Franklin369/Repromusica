@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Repromusica.Vistas.Reproductor.Progress">
+    <Grid 
+          HeightRequest="9"
+          Margin="20">
+        <BoxView CornerRadius="18">
+            <BoxView.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="LightSlateGray"
+                                  Offset="0.1" />
+                    <GradientStop Color="White"
+                                  Offset="0.9" />
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+        <BoxView CornerRadius="18"
+                 HorizontalOptions="Start"
+                 WidthRequest="{Binding ParametrosRecibe.Progress}">
+            <BoxView.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FF3002"
+                                  Offset="0.1" />
+                    <GradientStop Color="#FFEB72"
+                                  Offset="0.5" />
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+    </Grid>
+</ContentView>
